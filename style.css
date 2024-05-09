@@ -1,12 +1,11 @@
-/* BODY */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #ffffff;
-  }
-  
-  /* NAV LOGO */
-  .logo {
+    background-color: #FFFFFF;
+}
+
+
+.header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -14,136 +13,151 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-  }
-  
-  .logo-span {
+}
+.header-span {
     color: #2e2f42;
-  }
-  
-  /* NAV LİNK */
-  
-  .nav-link {
+}
+
+
+.f-list {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-  }
-  
-  .nav-link:hover {
+}
+.f-list:hover {
     color: #404bbf;
-  }
-  
-  .nav-link:focus {
+}
+.f-list:focus {
     color: #404bbf;
-  }
-  /* ADRESS */
-  
-  .nav-address {
+}
+
+
+.address-list {
     font-style: normal;
-  }
-  
-  /* ADRESS LİNK */
-  
-  .address-link {
+}
+.addr-list {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-  }
-  
-  .address-link:hover {
+}
+.addr-list:hover {
     color: #404bbf;
-  }
-  
-  .address-link:active {
+}
+.addr-list:focus {
     color: #404bbf;
-  }
-  
-  .address-link:focus {
-    color: #404bbf;
-  }
-  
-  /* FİRST SECTION */
-  
-  .first-section {
-    background-color: #2e2f42;
-  }
-  
-  .first-section-title {
+}
+
+
+.section-one {
+background-color: #2e2f42 ;
+}
+.title-one {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
-  }
-  
-  .btn {
+    color: #FFFFFF;
+}
+
+
+.btn {
     background-color: #4d5ae5;
-    font-family: inherit;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
-  }
-  
-  .btn:hover {
-    background-color: #404bbf;
-  }
-  
-  .btn:focus {
-    background-color: #404bbf;
+    color: #FFFFFF;
     cursor: pointer;
-  }
-  
-  /* SECOND SECTION */
-  .section-title {
+}
+.btn:hover {
+    background-color: #404bbf;
+}
+.btn:focus {
+    background-color: #404bbf;
+}
+
+
+.section-two-ul .subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-  }
-  
-  .section-p {
-    font-size: 16px;
+}
+.text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-  }
-  
-  /* THIRD SECTION */
-  .third-section {
-    background-color: #f4f4fd;
-  }
-  
-  .third-section-title {
+}
+
+
+.section-three {
+    background-color: #F4F4FD;
+}
+.title-three {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-  }
-  
-  .third-section-li {
-    background-color: #ffffff;
-  }
-  
-  /* FOOTER */
-  .footer {
-    background-color: #2e2f42;
-  }
-  
-  .footer-p {
-    line-height: 1.5;
-    color: #f4f4fd;
+}
+.section-three .list {
+    background-color: #FFFFFF;
+}
+.section-three-ul .subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-  }
-  
-  .footer-logo-span {
-    color: #f4f4fd;
-  }
+    color: #2e2f42;
+}
+.section-three .text {
+    color: #434455;
+}
+
+
+.title-four {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.section-four .subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-text {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+.footer-span {
+    color: #F4F4FD
+}
